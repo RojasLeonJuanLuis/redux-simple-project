@@ -15,9 +15,19 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
+    rules: [
+      {
+        // test: que tipo de archivo quiero reconocer,
+        // use: que loader se va a encargar del archivo
+        test: /\.(js|jsx)$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015', 'react', 'stage-2'],
+          }
+        }
+      }
     ]
   },
   plugins: [HtmlWebpackPluginConfig]

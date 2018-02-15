@@ -1,10 +1,14 @@
 import React from 'react'
+
 import BookList from '../containers/book-list'
+import ErrorBoundary from './error-boundary'
 
 const App = () => {
   return (
     <div>
-      <BookList />
+      <ErrorBoundary>
+        <BookList />
+      </ErrorBoundary>
     </div>
   )
 }
