@@ -1,0 +1,22 @@
+{
+  "name": "simple-redux-project",
+  "version": "1.0.0",
+  "description": "Redux simple project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RojasLeonJuanLuis/redux-simple-project.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Juan Luis Rojas León",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RojasLeonJuanLuis/redux-simple-project/issues"
+  },
+  "homepage": "https://github.com/RojasLeonJuanLuis/redux-simple-project#readme"
+}
