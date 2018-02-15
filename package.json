@@ -4,7 +4,7 @@
   "description": "Redux simple project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/RojasLeonJuanLuis/redux-simple-project/issues"
   },
-  "homepage": "https://github.com/RojasLeonJuanLuis/redux-simple-project#readme"
+  "homepage": "https://github.com/RojasLeonJuanLuis/redux-simple-project#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
 }
