@@ -1,8 +1,11 @@
 import React from 'react'
+import BookList from '../containers/book-list'
 
 const App = () => {
   return (
-    <div>Hello from app component!</div>
+    <div>
+      <BookList />
+    </div>
   )
 }
 export default App
