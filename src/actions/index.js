@@ -4,9 +4,3 @@ export function selectBook(book) {
     payload: book
   }
 }
-export function deselectedBook(book) {
-  return {
-    type: 'BOOK_DESELECTED',
-    payload: book
-  }
-}
